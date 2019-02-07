@@ -1,4 +1,4 @@
-'use strict';
+	'use strict';
 
 // Call this function when the page loads (the "ready" event)
 $(document).ready(function() {
@@ -11,6 +11,9 @@ $(document).ready(function() {
 function initializePage() {
 	console.log("Javascript connected!");
 }
+$(name).click(function() {
+	anagrammedName("name")
+})
 
 function anagrammedName(name) {
 	// Thanks, Internet Anagram Server!
