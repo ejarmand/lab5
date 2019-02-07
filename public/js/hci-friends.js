@@ -11,8 +11,8 @@ $(document).ready(function() {
 function initializePage() {
 	console.log("Javascript connected!");
 }
-$(name).click(function() {
-	anagrammedName("name")
+$(".name").click(function() {
+	anagrammedName('.name')
 })
 
 function anagrammedName(name) {
